@@ -36,5 +36,11 @@ there are still uncovered positive samples. In case, there is still, The last ad
 When using Monte-Carlo Tree Search algorithm to explore the search space, it will retrieve a pool of patterns as exlained in
 [Link](https://github.com/MSc-MGomaa/MCTS-For-Rule-learning). For a dataset consists of N classes, N pools of patterns are generated, each of which is generated with respect to a particular class. Now, the goal is to use each pool of rules to create a corresponding ruleset, Which covers every example belongs to that class. Now our aim is to use the Jaccard-similarity approach to do that task.
 
+## An Example for the pattern-sets found, one for each class for "IRIS" dataset:
+
+<p align="center">
+<img width="700" height="350" src="https://github.com/MSc-MGomaa/Jaccard-based-Similarity-algorithm-in-pattern-mining-tasks/blob/c3cb8ca9cd661aab3986bb6a234881054633004f/result4.png">
+
+From the results in the graph above, we can see that each class is represented with a set of patterns, NOT just single patterns as we did in [Link](https://github.com/MSc-MGomaa/MCTS-For-Rule-learning). Each set of patterns cover the sample space whcih represent each class, which we will use later to retrive a classifier.
 
 
