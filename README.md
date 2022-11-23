@@ -16,7 +16,7 @@ The similarity measure returns a value in between [0,1], zero to indicate the tw
 In the graph below, the main idea of the Jaccard approach is explained. It consists of two main parts, the first is to sort the given pool of rules with respect to the given label in a descending order, so that the rule that best describes that label comes first in the resulting list. After calculating the positive and negative samples covered by that rule, a check is done to see if there are still examples ∈ the current label, that have not yet been covered. If there are still examples ∈ the current label not covered yet, then Jaccard′s similarity is calculated between that rule just added to the RuleSet and the next rules in the sorted list.
 
 <p align="center">
-<img width="700" height="350" src="https://github.com/MSc-MGomaa/Jaccard-based-Similarity-algorithm-in-pattern-mining-tasks./blob/daa0e69a7a6252ad227863ab13b915ebed0a67a0/result3.png">
+<img width="700" height="350" src="https://github.com/MSc-MGomaa/Jaccard-based-Similarity-algorithm-in-pattern-mining-tasks/blob/c3cb8ca9cd661aab3986bb6a234881054633004f/result3.png">
 </p>
 
 ### jaccardSimilarity(rule1, rule2) < θ
