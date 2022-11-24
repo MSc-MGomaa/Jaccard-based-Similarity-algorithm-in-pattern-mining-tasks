@@ -42,5 +42,5 @@ When using Monte-Carlo Tree Search algorithm to explore the search space, it wil
 <img width="700" height="300" src="https://github.com/MSc-MGomaa/Jaccard-based-Similarity-algorithm-in-pattern-mining-tasks/blob/c3cb8ca9cd661aab3986bb6a234881054633004f/result4.png">
 
 From the results in the graph above, we can see that each class is represented with a set of patterns, NOT just single patterns as we did in [Link](https://github.com/MSc-MGomaa/MCTS-For-Rule-learning). Each set of patterns cover the sample space whcih represent each class, which we will use later to retrive a classifier.
-4
+2
 
